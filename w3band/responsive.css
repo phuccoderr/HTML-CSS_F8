@@ -1,0 +1,95 @@
+/* pc */
+@media  (min-width: 64em) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+@media (max-width: 63.9375em ) {
+    .contact-from .from-control {
+        padding: 15px;
+    }
+    p.modal-help {
+        margin-right: 4px;
+    }
+
+}
+/* tablet */
+@media  (min-width: 46.25em) and (max-width: 63.9375em) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+    .social-list a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text-contact {
+        line-height: 1.8;
+    }
+    .copy-right a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+/* mobile */
+@media  (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+    #header .comments-btn {
+        display: none;
+    }
+    
+    #header .mobile-menu-btn {
+        
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav >li {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+        
+    }
+    #nav li a {
+        padding: 1px 15px;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 28px;
+    }
+    #nav li:first-child {
+        display: inline-block;
+    }
+    #content .member-item {
+        width: 100%!important;
+        margin-bottom: 15px;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    
+    #tour-section {
+        height: 1842px;
+    }
+    .s-full-width,
+    .s-col-full {
+        width: 100%!important;
+    }
+    .s-mt-8 {
+        margin-top: 8px!important;
+    }
+    .text-contact {
+        margin-bottom: 16px;
+    }
+    .col-half {
+        width: 100%;
+    }
+    .btn {
+        width: 100%!important;
+        text-align: center;
+    }
+}
