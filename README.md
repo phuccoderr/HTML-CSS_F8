@@ -29,6 +29,24 @@ CSS Nội tuyến > CSS bên trong > CSS bên ngoài > CSS mặc định của t
   + fixed: Ảnh nền cố định khi cuộn nội dung trang web.
 - background-position
   + background-position: 5cm 2cm ( example )
+# Box Model 
+- Margin: Khoảng cách tính từ bên ngoài của phần tử
+- Padding: Khoảng cách tính từ bên trong của phần tử
+- Content: Nội dung trong phần tử
+- border-radius: bo tròn
+- Border: Đường viền của phần tử
+  + none: Không có đường viền
+  + hidden: Đường viền bị ẩn đi
+  + solid: Đường viền kiểu nét liền thông thường
+  + dashed: Đường viền kiểu nét đứt
+  + dotted: Đường viền kiểu chấm chấm
+  + double: Đường viền kép
+  + groove: Đường viền kiểu đường rãnh
+  + ridge: Đường viền kiểu lồi lên
+  + inset: Đường viền kiểu inset
+  + outset: Đường viền kiểu outset
+  + initial: Sử dụng giá trị mặc định của nó. Thông thường sẽ là none
+  + inherit: Kế thừa giá trị của phần tử html cha
 # Font Chữ 
 - Font-family ( kiểu chữ )
   + family-names: Tên cụ thể của font: Roboto, Arial, Time New Roman…
